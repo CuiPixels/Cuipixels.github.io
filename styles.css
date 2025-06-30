@@ -1,3 +1,73 @@
-h1{
-    color: red;
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #2A2928;
+  color: #ff0000;
+  text-align: center;
+}
+
+header {
+  background-color: #181616;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #319fbb;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+#hero {
+  background: url('assets/hero-bg.png') no-repeat center center;
+  background-size: cover;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 250px;
+  height: 200px;
+  image-rendering: pixelated;
+  border: 4px solid #2A2928;
+  background-color: #2A2928;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #00ffff;
+}
+
+footer {
+  padding: 20px;
+  font-size: 12px;
+  background-color: #2A2928;
 }
